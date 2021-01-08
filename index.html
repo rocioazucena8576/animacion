@@ -1,0 +1,294 @@
+<html>
+
+
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <meta charset='utf-8'>
+
+<style type="text/css">
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+img {
+	    border-radius: 9px;
+}
+
+.content {
+    width: 80%;
+    margin: 29px auto 0;
+}
+
+
+.cuadro1, .cuadro2, .cuadro3 , .cuadro4   {
+float: left;
+       width: 100%;
+
+    color: #000;
+    padding: 10px;
+    margin: 6px 0;
+}	
+
+.imagen-c {
+	float: left;
+	width: 100px;
+
+}
+
+.imagen-c img{
+width: 100%;
+border: 1px solid #CCC;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-o-border-radius: 20px;
+-ms-border-radius: 20px;
+}
+
+
+.content1 {
+    float: left;
+       width: 388px;
+    margin-left: 24px;
+}
+
+
+.numero {
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #E21E1B;
+}
+
+.texto {
+	float: left;
+}
+
+
+.vineta {
+float: left;
+width: 10px;
+height: 10px;
+border: 2px solid #E21E1B;
+background: #FFF;
+position: relative;
+border-radius: 20px;
+margin-right: 4px;
+
+}
+
+
+
+.vineta2 {
+	width: 6px;
+height: 6px;
+position: absolute;
+background: #E21E1B;
+border-radius: 20px;
+left: 2px;
+top:2px;
+
+}
+
+
+.cuadro1, .cuadro2, .cuadro3, .cuadro4 {
+	
+	opacity: 0;
+-webkit-animation-name: contenido1; /* Chrome, Safari, Opera */
+animation-name: contenido1;
+-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+animation-duration: 1s;
+ animation-fill-mode: forwards;
+ -webkit-animation-fill-mode: forwards;
+
+
+}
+
+.cuadro1 {
+	background: #E3E3E2;
+ -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+animation-delay: 1s;
+} 
+
+
+.cuadro2 {
+	background: #CFCFCF;
+	 -webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+animation-delay: 3s;
+
+}	
+
+.cuadro3 {
+	background: #BBBDBD;
+	 -webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+animation-delay: 5s;
+}	
+
+
+.cuadro4 {
+	background: #A8AAAA;
+	 -webkit-animation-delay: 7s; /* Chrome, Safari, Opera */
+animation-delay: 7s;
+
+}	
+
+
+
+@keyframes cuadro1 {
+    0%   { margin-top: -2px; opacity: 0}
+    100% { margin-top: 10px; opacity: 1 }
+}
+
+
+
+.contenido1 {
+
+-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+animation-delay: 2s;
+}
+
+.contenido2 {
+ -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+animation-delay: 4s;
+	
+}
+
+.contenido3 {
+
+-webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
+animation-delay: 6s;
+}
+
+.contenido4 {
+ -webkit-animation-delay: 8s; /* Chrome, Safari, Opera */
+animation-delay: 8s;
+	
+}
+
+.btn-repetir {
+	   float: right;
+    margin-right: 20px;
+background: #7D2625;
+    color: #FFF;
+    border: 0;
+    width: 91px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 15px;
+   -webkit-animation-delay: 9s; /* Chrome, Safari, Opera */
+	animation-delay: 9s;
+	opacity: 0;
+-webkit-animation-name: boton; /* Chrome, Safari, Opera */
+animation-name: boton;
+-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+animation-duration: 1s;
+ animation-fill-mode: forwards;
+ -webkit-animation-fill-mode: forwards;
+}
+
+
+
+@keyframes contenido1 {
+    0%   { margin-top: -100; opacity: 0}
+    100% { margin-top: 10px; opacity: 1 }
+}
+
+
+
+@keyframes boton {
+    0%   { opacity: 0}
+    100% { opacity: 1 }
+}
+
+
+
+
+
+
+.fa-repeat {
+    margin-right: 5px;
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="content">
+
+<div class="cuadro1">	
+<div class="contenido1">
+<div class="col-sm-3 float-left">
+<img width="100%" src="images/f1.png">
+</div>
+ <div class="col-sm-9 float-left">
+<div class="numero">1</div>
+<div class="texto"> Ajuar y mobiliario de una casa que sirvan exclusiva y propiamente para el uso y trato ordinario de una familia (lo que no estipula un límite o valor máximo).</div>	
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+
+
+
+
+
+<div class="cuadro2">	
+<div class="contenido2">
+<div class="col-sm-3 float-left">
+<img width="100%" src="images/f2.png">
+</div>
+ <div class="col-sm-9 float-left">
+<div class="numero">2</div>
+<div class="texto"> Ropa, libros, libreros, obras de arte o científicas que no constituyan colecciones completas para la instalación de exposiciones o galerías de arte. </div>	
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+
+
+<div class="cuadro3">	
+<div class="contenido3">
+<div class="col-sm-3 float-left">
+<img width="100%" src="images/f3.png">
+</div>
+ <div class="col-sm-9 float-left">
+<div class="numero">3</div>
+<div class="texto"> Instrumentos científicos de profesionales, herramientas de obreros y artesanos indispensables para el desarrollo de la profesión, arte u oficio del solicitante (no podrán constituir equipos completos para la instalación de laboratorios, consultorios o talleres); y </div>	
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+
+
+
+<div class="cuadro4">	
+<div class="contenido4">
+<div class="col-sm-3 float-left">
+<img width="100%" src="images/f4.png">
+</div>
+ <div class="col-sm-9 float-left">
+<div class="numero">4</div>
+<div class="texto"> Las necesarias para el desempeño de las labores de periodismo para prensa, radio o televisión. </div>	
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+
+
+
+
+
+<button class="btn-repetir" name="reiniciar"  onclick="location.reload();" value="Repetir" />
+<i class="fa fa-repeat" aria-hidden="true"></i>Repetir</button>
+
+</div><!--FINAL CONTENT-->
+</body>
+</html>
